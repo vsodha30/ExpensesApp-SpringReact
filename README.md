@@ -3,5 +3,5 @@
  
  We can use these app to keep track of the expenses and add new expenses. 
  
- Inside expenses folder there is Reactapp - for react code
- Inside expenses folder the is src - for Spring Boot application
+ Inside expense folder there is Reactapp - for react code
+ Inside expense folder the is src - for Spring Boot application
