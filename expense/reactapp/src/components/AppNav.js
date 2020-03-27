@@ -23,7 +23,7 @@ export default class AppNav extends React.Component{
         return (
             <div>
               <Navbar color="dark" dark expand="md">
-                <NavbarBrand href="/">reactstrap</NavbarBrand>
+                <NavbarBrand href="/">Expenses Management</NavbarBrand>
                 {/* <NavbarToggler onClick={toggle} /> */}
                 {/* <Collapse isOpen={isOpen} navbar> */}
                   <Nav className="mr-auto" navbar>
@@ -38,7 +38,7 @@ export default class AppNav extends React.Component{
                     </NavItem>
                     
                   </Nav>
-                  <NavbarText>Simple Text</NavbarText>
+                  {/* <NavbarText>Simple Text</NavbarText> */}
                 {/* </Collapse> */}
               </Navbar>
             </div>
