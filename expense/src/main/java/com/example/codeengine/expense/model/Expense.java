@@ -3,6 +3,7 @@ package com.example.codeengine.expense.model;
 import java.time.Instant;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
@@ -20,7 +21,7 @@ import lombok.NoArgsConstructor;
 @Table(name="expense")
 public class Expense {
 	
-	@Id
+	@Id @GeneratedValue
 	private Long id;
 	
 	private Instant expensedate;
